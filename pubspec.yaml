@@ -1,0 +1,52 @@
+name: counter_app
+description: An advance counter app for flutter.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  bloc_test: ^9.0.3
+  flare_flutter: ^3.0.2
+  path_provider: ^2.0.11
+  hydrated_bloc: ^8.1.0
+  animate_do: ^2.1.0
+  flutter_native_splash: ^2.2.5
+
+flutter_native_splash:
+  color: "#f2f2f2"
+  color_dark: "#1a2127"
+  image: assets/images/splash.png
+  branding: assets/images/brand.png
+  branding_dark: assets/images/brand_dark.png
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/flares/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
