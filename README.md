@@ -6,13 +6,13 @@ A completely redesigned version of the default flutter counter app
 
 ### Splash Screen
 
-<img src="doc/splash_dark.png" width="200" />
-<img src="doc/splash_white.png" width="200" />
+<img src="doc/splash_dark.png" width="100" />
+<img src="doc/splash_white.png" width="100" />
 
 ### Changing Counter and Theme
 
-<img src="doc/counter_demo.gif" width="200" />
-<img src="doc/theme_demo.gif" width="200" />
+<img src="doc/counter_demo.gif" width="100" />
+<img src="doc/theme_demo.gif" width="100" />
 
 ## Features
 
